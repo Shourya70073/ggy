@@ -1,0 +1,128 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d9afd9;
+  background-image: linear-gradient(214deg, #d9afd9 0%, #97d9e1 77%);
+  font-family: "Rubik", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 60%);
+  width: 30%;
+  z-index: 2;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.title {
+  color: white;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.description {
+  font-size: 13px;
+  color: purple;
+}
+
+.container-2 {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background: whitesmoke;
+}
+.btn {
+  background: linear-gradient(
+    135deg,
+    rgba(179, 229, 252, 1) 0%,
+    rgba(179, 229, 252, 1) 50%,
+    rgba(240, 98, 146, 1) 50%,
+    rgba(240, 98, 146, 1) 100%
+  );
+  border: none;
+  border-radius: 10px;
+  padding: 12px 13px;
+  color: black;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media screen and (max-width: 384px) {
+ h3{
+  margin-left: 2px;
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width: 352px) {
+  .title{
+    font-size: 25px;
+   }
+  .description{
+    font-size: 13px;
+  }
+  .btn{
+    padding: 8px 6px;
+  }
+ }
+
+ @media screen and (max-width: 300px) {
+  .description{
+    font-size: 8px;
+  }
+  .btn{
+    padding: 6px 4px;
+    font-size: 10px;
+  }
+  
+ }
+ 
+ @media screen and (max-width: 276px) {
+  .description{
+    font-size: 8px;
+
+  }
+  h3{
+    font-size: 10px;
+  }
+  .t1{
+    margin-left: 8px;
+  }
+  .btn{
+     padding: 6px 6px;
+     font-size: 8px;
+  }
+  
+ }
+
+ @media screen and (max-width: 228px) {
+   h3{
+     font-size: 8px;
+   }
+  .t1{
+    margin-left: 15px;
+  }
+  .title{
+    font-size: 15px;
+  }
+ }
+ @media screen and (max-width: 188px) {
+  .description{
+    font-size: 6.5px;
+  }
+}
